@@ -1,0 +1,23 @@
+{
+  "name": "uploader",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/br4in/File-Metadata-Microservice.git"
+  },
+  "author": "br4in",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/br4in/File-Metadata-Microservice/issues"
+  },
+  "homepage": "https://github.com/br4in/File-Metadata-Microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
+}
