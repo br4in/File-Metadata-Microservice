@@ -10,15 +10,20 @@
     </head>
     <body>
         
-        <div id="title-div">
+        <div id="title-div" class="text-center">
             <h1>File Metadata Microservice</h1>
             <p>Free Code Camp</p>
         </div>
         
+        <div id="content-div" class="text-center">
+            <p><strong>User story: </strong>I can submit a FormData object that includes a file upload.</p>
+            <p><strong>User story: </strong>When I submit something, I will receive the file size in bytes within the JSON response</p>
+        </div>
+        
         <div id="form-div">
-            <form method="post",enctype="multipart/form-data",action="/">
-                <input type="file" name="upload"/>
-                <input type="submit" value="Upload"/>
+            <form method="post" enctype="multipart/form-data" action="/">
+                <p><input type="file" name="upl"/></p>
+                <p><input type="submit"/></p>
             </form>
             
         </div>
